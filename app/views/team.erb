@@ -5,3 +5,11 @@
   <p>Team Name: <%=@team.name %></p>
   <p>Team Name: <%=@team.motto %></p>
 </div>
+
+<div>
+  <h1>Heros</h1>
+  <% @heros.each do |hero| %>
+  <p>Name: <%= hero.name %></p>
+  <p>Power: <%= hero.power %></p>
+  <p>Bio: <%= hero.bio %></p>
+</div>
